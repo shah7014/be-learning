@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: SampleBookAuthorEntityRelationship
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/samplebookdb?createDatabaseIfNotExist=true
+    username: root
+    password: password@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
